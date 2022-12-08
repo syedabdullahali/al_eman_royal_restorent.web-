@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.home{
+    height: calc(100vh - 4rem);
+    padding-top: 2.2rem;
+    background-color: rgba(255, 255, 255, 0.241);
+
+}
+.qote{
+    font-family: 'Satisfy';
+    font-size: 2.5rem;
+   background-color: rgba(240, 248, 255, 0.293);
+}
+.welcome_text{
+    font-family: 'Source Sans Pro';
+    font-size: 2.5rem;  
+    margin: 0.5rem;
+}
+.order-text{
+    font-size: 2.7rem;  
+    font-family: 'Source Sans Pro';
+    color: rgb(10, 6, 46);
+}
+
+.table-oder-button{
+    font-size: 1rem;
+    background-color:rgb(208, 166, 87);
+    padding: 15px 30px;
+    margin: 1rem;
+    border: none;
+    border-radius: 30px;
+    color: rgb(249, 245, 240);
+    font-weight: bolder;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.table-oder-button:hover{
+    font-size: 1.1rem;
+}
+.table-oder-button:active{
+    font-size: 1rem;
+}
+
+.home_text{
+    height: 15rem;
+    margin: 0.5rem;
+}
+
+.meals{
+    height: 12rem;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.597);
+    margin: 0 1rem;
+    margin: auto;
+}

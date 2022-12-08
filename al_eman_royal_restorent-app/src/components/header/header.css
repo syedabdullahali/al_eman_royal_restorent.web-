@@ -1,0 +1,67 @@
+.header{
+  position: fixed;
+}
+.navigation-parent{
+    position: relative;
+    height: 4rem;
+    background-color: rgba(247, 234, 218, 0.334);
+}
+
+.navigationbar{
+    display: flex;
+    align-items: center;
+    padding-left:12rem;
+    padding-bottom: 0.5;
+    height: 80%;
+    background-color: white;
+}
+
+.navigationbar a{
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    margin:0 1.2rem;
+    width: 80px;
+    font-weight: bold;
+    color: black;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+.navigationbar a:hover{
+color: rgb(229, 188, 39);
+font-size: 1.1rem;    
+}
+.navigationbar a:active{
+    color: rgb(229, 188, 39);
+    font-size: 1rem;    
+}
+
+.nav-animated-text{
+    font-family: 'Satisfy';
+    font-weight: bold;
+    height: 20%;
+}
+.header-2{
+    font-family: 'Source Sans Pro';
+    height: 8rem;
+    position: absolute;
+    top:0;
+    bottom: 0;
+
+     font-size: 1rem;
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+    place-items: center;
+    width: 10rem;
+
+   padding: 0.5rem;
+   font-family: 'Satisfy';
+   color: rgb(77, 3, 3);
+
+   background-color: white;
+   text-align: center;
+   border-radius: 50%;
+}
+.logo{
+width:150%;
+}
